@@ -1,0 +1,183 @@
+/* Starting point clean margin and padding*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/* Global vars - fonts & colors */
+:root{
+	--light-gray-font-clr: #777878;
+	--teal-font-clr: #458281;
+	--teal-bg-clr: #458281;
+	--all-over-font: " Gill Sans", sans-serif;
+}
+
+/* Font color & family - h1 & footer*/
+h1,
+h4,
+p,
+footer{
+	color: var(--light-gray-font-clr);
+	font-family: var(--all-over-font);
+}
+
+body{	
+	margin: 0 0 0;
+	padding: 10px 0;
+	background-color: #010a0a;
+}
+
+/* nav design stuff, heading/ banner text*/
+h1,
+h4,
+p,
+nav{
+	text-align: center;
+	margin: 0 0 0;
+	padding: 10px 0;
+}
+
+nav ul{
+	margin: 0 2px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+}
+
+/* additional nav animaiton and design stuff. */
+nav a{
+	font-family: var(--all-over-font);
+	text-transform: lowercase;
+	margin: 4px;
+	padding: 10px 10px;
+	text-decoration: none;
+	width: 100px;
+	height: 20px;
+	border-radius: 40px; 
+	line-height: 20px;
+	border: 3px solid #458281;
+	display: block;
+	color: #458281;
+	position: relative;
+	overflow: hidden;   
+	background: transparent;
+}
+
+nav a:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: var(--teal-bg-clr);
+	top: -100%;
+	left: 0;
+	z-index: -1;
+}
+
+nav a:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: var(--teal-bg-clr);
+	top: -100%;
+	left: 0;
+	z-index: -1;
+}
+
+nav a:hover{
+	color: #fff; /* text white when hover over*/
+}
+
+nav a:hover:before{
+	top: 0;
+}
+
+nav a:hover:after{
+	top: 0;
+}
+
+h1{
+	text-transform: uppercase;
+	text-shadow: 2px 2px var(--teal-font-clr);
+}
+
+/* main body*/
+#container{
+	min-height: 100%;
+}
+
+#main-content{
+	overflow: auto;
+	padding-bottom: 100px;
+	font-family: var(--all-over-font);
+	color: var(--light-gray-font-clr);
+}
+
+
+/* Footer design stuff here */
+/*#footer{
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear:both;
+}*/
+
+/*.mailto{
+	text-decoration: none;
+	color: var(--teal-font-clr);
+}*/
+
+h5{
+	text-align: center;
+	font-size: 15px;
+}
+
+/*PAGES 2 main and 3 main only*/
+#container-links-PG2-PG3-main
+ {
+	text-align: center;
+	margin: 0 0 0;
+	padding: 30px 0;
+}
+#container-links-PG2-PG3-main 
+ ul{
+	margin: 0 2px;
+	padding: 0;
+}
+#container-links-PG2-PG3-main li{
+	display: inline-block;
+	text-align: center;
+}
+#container-links-PG2-PG3-main a{
+	font-family: var(--all-over-font);
+	color: #911c36;
+	font-weight: normal;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+#title-main-PG2-PG3 {
+	padding-top: 50px;
+	font-family: var(--all-over-font);
+	color: var(--light-gray-font-clr);
+	text-align: center;
+}
+/*#js-fun{
+	padding-top: 100px;
+	padding-left: 40px;
+	color: var(--light-gray-font-clr);
+	font-family: var(--all-over-font);
+}
+*/
+
+
+
+
+
