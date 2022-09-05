@@ -29,12 +29,27 @@ body{
 	background-color: #010a0a;
 }
 
-/* nav design stuff, heading/ banner text*/
+/* nav h tags layout stuff, heading/ banner text*/
 h1, h4, nav{
 	text-align: center;
 	margin: 0 0 0;
 	padding: 10px 0;
 }
+
+
+h1{
+	text-transform: uppercase;
+	text-shadow: 2px 2px var(--teal-font-clr);
+}
+
+
+
+h5{
+	text-align: center;
+	font-size: 15px;
+}
+
+
 
 /* Paragraph, portfolio page link alignment stuff */
 p{
@@ -43,11 +58,8 @@ p{
 	margin: auto;
 }
 
-/*#portfolio_page_link{
-	text-align: center;
-}*/
 
- nav ul{
+nav ul{
 	margin: 0 2px;
 	padding: 0;
 }
@@ -119,7 +131,9 @@ nav a:hover:after{
 	min-height: 100%;
 }
 
+.page_title{
 
+}
 
 
 /* Footer design stuff here */
@@ -146,10 +160,7 @@ footer a{
 }*/
 
 
-h5{
-	text-align: center;
-	font-size: 15px;
-}
+
 
 
 
