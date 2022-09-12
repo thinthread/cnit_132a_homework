@@ -17,7 +17,7 @@ html, body{
 }
 
 /* Font color & family - h1 & footer*/
-h1, h4, p
+h1, h2, h4, h6, p
 {
 	color: var(--light-gray-font-clr);
 	font-family: var(--all-over-font);
@@ -30,7 +30,7 @@ body{
 }
 
 /* nav h tags layout stuff, heading/ banner text*/
-h1, h4, nav{
+h1, h2, h4, h6, nav{
 	text-align: center;
 	margin: 0 0 0;
 	padding: 10px 0;
