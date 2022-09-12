@@ -143,6 +143,16 @@ nav a:hover:after{
 
 }
 
+.reports_snapshot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+  	padding: 20px;
+  	width: 800px;
+  	height: 500px; 
+}
+
 
 /* Footer design stuff here */
 footer ul{
