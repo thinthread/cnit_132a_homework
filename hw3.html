@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="style_sheets/style.css" />
+		<link rel="stylesheet" type="text/css" href="style_sheets/style.css">
 		<!-- Google analitics tag (gtag.js), sync to google then imbed code, add to each page for data collection tracking of usier activity-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5FWGBBB270"></script>
 
@@ -38,56 +38,58 @@
 		</script>
         <!-- End Google Tag Manager -->
 
-        	<div class="page_container">
-			<br>
-			<h1 class="page_title">Working with Images</h1>
-			<br>
-			<br>
-			<br>
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li><!--home page-->
-					<li><a href="contact_me.html">Contact</a></li>
-					<li><a href="assignments.html">Assignments</a></li>
-				</ul>
-			</nav>
-			<br>
-			<br>
-			<main class="images_paragraph_hw_content">
-				<!-- uncompressed image and caption -->
-				<figure >
-					<img id="uncompressed_backyard_garden" src="images/cool_tone_backyard_garden_shade.jpeg" alt="uncompressed backyard shade garden image">
-				</figure>  
+    	<div class="page_container">
+		<br>
+		<h1 class="page_title">Working with Images</h1>
+		<br>
+		<br>
+		<br>
+		<nav>
+			<ul>
+				<li><a href="index.html">About</a></li><!--home page-->
+				<li><a href="contact_me.html">Contact</a></li>
+				<li><a href="assignments.html">Assignments</a></li>
+			</ul>
+		</nav>
+		<br>
+		<br>
+		<main class="images_paragraph_hw_content">
+			<!-- uncompressed image and caption -->
+			<figure >
+				<img id="uncompressed_backyard_garden" src="images/cool_tone_backyard_garden_shade.jpeg" alt="uncompressed backyard shade garden image">
 				<br>
 				<figcaption class="image_caption">kb: 466, width: 1600 pixels, height: 1200 pixels, resolution: 96 dpi</figcaption>
-				<br>
-				<br> 
-				<!-- 477 KB per apple -->
-
-				<!-- compressed image and caption -->
-				<figure>
-					<img id="compressed_backyard_garden" src="images/compressed_cool_tone_backyard_garden_shade-min.jpeg" alt="compressed backyard shade garden image" >
-				</figure>
-				<br>
-
-				<figcaption class="image_caption">kb:379 , width: 1600 pixels, height: 1200  pixels, resolution: 96 dpi - compretion rate of -19%
-					
-				</figcaption>
-				<!-- kb 388 -->
+			</figure>  
+			<br>
 			
+			<br>
+			<br> 
+			<!-- compressed image and caption -->
+			<figure>
+				<img id="compressed_backyard_garden" src="images/compressed_cool_tone_backyard_garden_shade-min.jpeg" alt="compressed backyard shade garden image" >
 				<br>
-				<br>
-				<p>
-					when I applied the -19% compression, there was a small but noticeable change in color contrast. but the change was so miniscule (deeper colors and shadow regions of the image seemed to get just a tad bit darker, while the highlights appeared to remain the same). I don't think it would be detectable but the majority of people seeing this image. but when I loaded the image to the page I could not see a difference between the images
-
-					used site https://imagecompressor.com/ to implement the compression
-
-
-				</p>
-				<br>
-				<br>
-				<br>
-			</main>
+				<figcaption class="image_caption">kb:379 , width: 1600 pixels, height: 1200  pixels, resolution: 96 dpi - compretion rate of -19%
+				</figcaption>
+			</figure>
+			<br>
+			<br>
+			<br>
+			<p>
+				Here are two images I uploaded to my site.  The first  image was not altered in any way.  Utilizing the site https://imagecompressor.com/, I applied a -19% compression to the original image which rendered a compressed image file. 
+			</p>
+			<p>
+				At first glance, there appears to be little, if any, difference between the two images.  Upon closer examination of the altered image, the effect of the compression does become evident.  The color tones of the modified image are slightly deeper, and shadow areas have darkened slightly as a result of the compression.  
+			</p>
+			<p>
+				These minor variances would probably not be obvious to the majority of people visiting the site.  In fact, after the compression, initially I did not notice any marked disparity between the two images.  
+			</p>
+			<p>
+				Noted above are the specs for each image. You may want to take note that all parameters of the specs are identical with the exception of the kilobytes. 
+			</p>
+			<br>
+			<br>
+			<br>
+		</main>
 	</body>
 </html>
 
@@ -96,16 +98,5 @@
 		2)  insert an image of a landscape, or an image you shot using your cell phone camera. Take note of the size of the image (width, height, and number of bytes). Use the <figure> tag so you can use the <figcaption> tag where you will write the width, height, and number of bytes of that image
 		3)  You will insert again that same image but after you compress/optimize and, in the figcaption you will write the width, height, and number of bytes of that new optimized image
 		4)  After the two images, you will write a paragraph where you will mention the tool used to compress/optimize the image, and you will create a hyperlink to that tool you used. You will also mention, in that paragraph, if you saw any improvement in the download time of the image and that page after you optimized the image (remember that you can use Chrome Developer Tools to check the download time of each image).
-		5) vakidate code W3C
-
-
-
-		Side note:
-			1)  You will minify the HTML, CSS of ALL your pages (the 3 pages you created in Homework 1 and the new page you created for this assignment).   
-
-
-
-
-
-
+		5) vakidate code W3C 
 -->

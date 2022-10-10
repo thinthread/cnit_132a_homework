@@ -85,7 +85,6 @@ nav a{
 	display: block;
 	color: #458281;
 	position: relative;
-	/*overflow: hidden;   */
 	overflow: auto;
 	background: transparent;
 }
@@ -165,8 +164,6 @@ nav a:hover:after{
   	width: 800px;
   	height: 500px; 
 }
-
-
 
 /* Footer design stuff here */
 footer ul{
