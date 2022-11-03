@@ -1,0 +1,92 @@
+/* homework 4 styles - part 2*/
+
+
+/* flexbox container - outer - for page */
+.flex_container_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    flex-grow: 100%;
+}
+
+
+/* Header container and related stuff */
+.header_container {
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  justify-content: center;
+  background-color: tomato;
+}
+
+
+
+/* Columns containers, 1, 2, 3 and 4, other related stuff*/
+.flex_container_columns {
+    display: flex;
+    
+}
+
+
+
+.aside_1 {
+    background-color: yellow;
+}
+
+.main_article {
+    background-color: navy;
+    color: white;
+}
+
+.article_2 {
+    background-color: violet;
+    color: blue;
+}
+
+.aside_2 {
+    background-color: pink;     
+}
+
+
+
+.aside_1, .main_article, .article_2, .aside_2 {
+    padding: 1%;
+    width: 23% ;   
+}
+
+.main_article, .article_2 {
+    line-height: 7em;
+}
+
+
+.main_article p, .article_2 p{
+    display: block;
+    line-height: normal;
+    vertical-align: middle;
+    font-weight: bold; 
+}
+
+.aside_1, .aside_2 {
+    text-align: center;
+}
+
+
+
+/* Flex container and other related stuff */
+.flex_container_footer{
+    flex: 4;
+    height: 5em;
+    line-height: 5em;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    position: relative;    
+}
+
+.flex_container_footer p {
+    vertical-align: middle;
+    line-height: normal;
+}
+

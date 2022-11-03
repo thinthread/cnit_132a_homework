@@ -1,0 +1,34 @@
+/* homework 4 styles - part 1*/
+
+/* layout */
+.page_layout_grid{
+	display: grid;
+	padding: 5px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:  50vh 50vh;
+}
+
+.quadrant_search, .quadrant_links, 
+.quadrant_messages, .quadrant_news{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* quadrant color blocks */
+.quadrant_search{
+	background-color: violet;
+}
+
+.quadrant_links{
+	background-color: orange;
+}
+
+.quadrant_messages{
+	background-color: red;
+}
+
+.quadrant_news{
+	background-color: cyan;
+
+}

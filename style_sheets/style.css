@@ -70,11 +70,13 @@ p{
 nav ul{
 	margin: 0 2px;
 	padding: 0;
+
 }
 
-nav li{
+nav ul li{
 	display: inline-block;
 	text-align: center;
+	position: relative;
 }
 
 

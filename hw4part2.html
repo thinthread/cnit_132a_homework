@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="style_sheets/style.css">
+		<link rel="stylesheet" type="text/css" href="style_sheets/style_hw4_part2.css">
 		<!-- Google analitics tag (gtag.js), sync to google then imbed code, add to each page for data collection tracking of usier activity-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5FWGBBB270"></script>
 
@@ -22,11 +22,11 @@
 		</script>
         <!-- End Google Tag Manager -->
 
-	    <title> CNIT 132A Advanced HTML and CSS, Assignments page </title>
+	    <title> CNIT 132A Advanced HTML and CSS, Homwework 4 Part 2 - flexbox </title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width-device-width, initial-scale-1.0">
-		<meta name="description" content="Home Page - Stephanie Boyette - CNIT 132A Advanced HTMl and CSS homework assignments, assignments page">
+		<meta name="description" content="Home Page - Stephanie Boyette - CNIT 132A Advanced HTMl and CSS homework assignments, Homwework 4 Part 2 - flexbox">
 	</head>
 	<body>
 		<!-- Google Tag Manager -->
@@ -37,40 +37,34 @@
 			})(window,document,'script','dataLayer','GTM-PJBWLNJ');
 		</script>
         <!-- End Google Tag Manager -->
-		<div class="page_container">
-			<br>
-			<h1 class="page_title">Assignments</h1>
-			<br>
-			<br>
-			<br>
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li><!--home page-->
-					<li><a href="contact_me.html">Contact</a></li>
-					<li><a href="assignments.html">Assignments</a></li>
-				</ul>
-			</nav>
-			<br>
-			<br>
-			<main>
-				<p> Please find below a colelction of links to assignments that will be posted upon complettion for the deration of this cource (CNIT 132A - advanced HTML and CSS).
-			 
-			 	</p>
-			 	<br>
-			 	<br>
-			 	<br>
-			 	<nav>
-					<ul>
-						<li><a href="homework2_about_ga4.html">Homework 2</a></li>
-						<li><a href="hw3.html">Homework 3</a></li>
-						<li><a href="hw4_landing_page.html" >Homework 4</i></a>
-						<li><a href="">Homework 5</a></li>
-						<li><a href="">Homework 6</a></li>
-						<li><a href="">Homework 7</a></li>
-						<li><a href="">Homework 8</a></li>
-					</ul>
-				</nav>
-			</main>
+
+
+		<div class="flex_container_main"> <!--flexbox container - outer -->
+			<div class="header_container">Name of Company</div> 
+			<!-- flexbox container columns -->
+			<div class="flex_container_columns">
+				<!-- column 1 -->
+				<div class="aside_1">This is the aside 1</div>
+				<!-- column 2 -->
+				<div class="main_article">
+					<p>This is the main article of my page!  This is the main content of the page.  In a 3-column layout, it should be shown in the midle between the aside 1 and aside 2!
+					</p>
+				</div>
+				<!-- column 3 -->
+				<div class="article_2">
+					<p>This column was created to have some content as a challenge to adapt the old 3-column layout into a 4-column layout	
+					</p>
+				</div>
+				<!-- column 4 -->
+				<div class="aside_2">This is the aside 2</div>
+			</div>
+			<div class="flex_container_footer">
+				<p>
+					This is the footer
+					<br>
+					Copyright © 2022
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
