@@ -66,6 +66,7 @@ p{
 	text-align: left;
 }
 
+/* additional nav, assignments page, portfolio link animaiton and design stuff. */
 
 nav ul{
 	margin: 0 2px;
@@ -80,7 +81,7 @@ nav ul li{
 }
 
 
-/* additional nav, portfolio link animaiton and design stuff. */
+
 nav a{
 	font-family: var(--all-over-font);
 	text-transform: lowercase;
@@ -131,6 +132,17 @@ nav a:hover:before{
 
 nav a:hover:after{
 	top: 0;
+}
+
+/*pulldown menu stuff, assigments page*/
+nav ul ul{
+	position: absolute;
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+	top: 58px;
 }
 
 
