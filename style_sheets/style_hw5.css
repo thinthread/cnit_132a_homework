@@ -1,0 +1,40 @@
+body{ 
+	background-color: #DEB887; 
+	color: #A52A2A; 
+}
+    
+
+header { 
+	width: 60%; 
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5rem; 
+	color: black;
+}
+
+header img{
+	box-shadow: 5px 5px 5px gray; 
+}
+
+section { 
+	width: 80%; 
+	margin: 0 auto; 
+	border: 2px solid #D2691E; 
+	padding: 0 10px;
+}
+
+footer {
+	width: 60%; 
+	margin: 10PX auto; 
+	padding: 3px; 
+	text-align: center; 
+	background-color: #A52A2A; 
+	color: white; 
+	font-size: 0.9rem;
+	overflow: auto;
+}	 
+	   
+footer img {
+	float: left;
+	/*margin: 0 5px 5px 0;*/
+}

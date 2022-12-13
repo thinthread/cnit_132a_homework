@@ -1,0 +1,135 @@
+<!-- Searchablility optimization:
+
+	search and globalization are served better with semantics 
+
+	semantics promotes interoperability, allowing the exchanfe of informaiton acress different platforms and devices
+
+	for the hearing and/or visially impaired
+
+	NVDA voice activated program
+
+
+	Structure Semantics:
+		USE:  
+			header, nav, article, section, aside, footer elements:
+				these provide additional meaning ti the web browser and devices
+
+
+				note: 
+					banner is the header element
+			
+					use span and div and section when trying to control the color of something
+					place these elements inside of a header or main or some other meaningfull element
+
+
+				
+			<a> tags vrs <button tag:
+					for visually impared, is using <a> tag:
+						<a> roll="button"</a>
+						if  you don't use roll="button", confuses user as they think its going to redirect to new page
+						you can only activate links using enter key
+
+						
+
+						best to use button tag for button features, less confusing for visially impared
+						you can activate links using enter key or press the spacebar 
+						<button aria-expanded="false" aria-expanded="sect1"></button>
+								need to use JS with this to change false to true
+									see the following .....
+									https://www.youtube.com/watch?v=0hqhAIjE_8I
+
+
+			mark tag: 
+				highlights in yellow selected words or phrases in an html document... use this instead of changing the backgroun-color to highlight text
+
+		
+			abbr tag:
+				<p>The <abbr title="Honerable"> Hon.</abbr>Judge presidedo ver the case and rulled in favor of the prosacutor.</p>
+			
+			acronym tag:
+				<p>The <acronym title+"Federal Bureau of investigaiton"> FBI </acronym> arrived at Maralago</p>
+
+					see more:
+						https://www.youtube.com/watch?v=9qZHefdwNMU
+
+	
+		
+			Hiden vrs CSS display: none;
+				??? look this up
+
+				visibility:hidden hides the element, but it still takes up space in the layout. display:none removes the element from the document. It does not take up any space.
+
+
+
+
+
+			Note:
+				boostrap or foundatiuon are not accessable at all
+				javascript also affects accessability - avvoid using JS as if it is a semantic counterpart
+
+
+			Meter tag:
+				used to measure data within a given range
+				prives a progress bar in browser
+
+				<meter value="50" max="50" min="0">range</meter>
+
+				note: you can pass values to meter????
+
+				atributes of meter tag:
+					value - it is a mandatory attribute which is used to specify a value in numbers
+
+					max - specifies the maximum value defined in a range
+
+					min - specifies the minimum value defined in a range
+
+
+								https://www.youtube.com/watch?v=K7RxK2pwsCI
+
+
+			time element - look up
+				time element can be used without the datetime atribute, if representing date OR time of a publication
+
+			address element - look up
+				use when holding the content of physical address, or website or email address
+			
+			pubdate -  boolean atribute use for publicaiton
+					- at this time pubdate not allowed on the element time
+					https://www.youtube.com/watch?v=fk1CQj3NfhU
+
+
+
+			web contrast checker:
+
+				https://webaim.org/resources/contrastchecker/
+
+
+
+
+
+
+
+
+
+			ARIA:
+
+
+
+			https://www.youtube.com/watch?v=0Y1EEG4GyKU
+
+			
+
+			screen reader chrome Vox classic extension:
+
+				https://www.youtube.com/watch?v=0hqhAIjE_8I
+
+				install chrom reader - to activate and deactive  - " shift + alt + aa"
+
+
+			https://www.youtube.com/watch?v=z8xUCzToff8
+
+			
+
+
+
+	 -->

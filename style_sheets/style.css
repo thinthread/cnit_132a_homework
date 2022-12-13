@@ -134,14 +134,15 @@ nav a:hover:after{
 	top: 0;
 }
 
-/*pulldown menu stuff, assigments page*/
+/*pulldown menu stuff, assigments page - changed dropdown for acceibility*/
 nav ul ul{
 	position: absolute;
 	display: none;
 }
 
-
-nav ul li:hover > ul{
+/*accessible dropdown featture*/
+nav ul li:hover > ul,
+nav ul li:focus-within > ul{
 	display: block;
 	
 }
