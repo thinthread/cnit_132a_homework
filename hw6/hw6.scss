@@ -1,0 +1,89 @@
+// at least one variable 
+// create a function to calculate rem in a way that makes sense,
+// not simply to create a variable and 
+// it's not a simple 1-to-1 translation of the .css to .sass 
+
+// https://codepen.io/pen/
+// had issues with builds working on my sublime text so I 
+// used codepen.io sand box for this... I'm hoping this work correctly
+// when you build the file
+
+
+@use "sass:math";
+
+@function calc_rem($size) {
+  @return (($size)/16)*1rem;
+}
+
+//just trying out mixins here
+@mixin width-size-percent{
+  width: 100%;
+}
+
+$color_1: #2f2828;
+$color_2: #eecccc;
+$color_3: black;
+$background-color_1: #eecccc;
+$background-color_2: #fbf4f4;
+$background-color_3: #2f2828;
+
+.wrapper {
+  @include width-size-percent;
+  background-color: $background-color_1;
+  // font-size: 1.2rem;
+  font-size: calc_rem(16.8);
+}
+.header {
+  @include width-size-percent;
+  h1 {
+    font-size: 2.5rem;
+    color: $color_1;
+  }
+}
+
+.nav {
+  @include width-size-percent;
+  background-color: $background-color_2;
+  font-size: 1rem;
+  padding: 0.2rem;
+  ul {
+    li {
+      display: inline-block;
+      width: 10rem;
+      margin-right: 0.2rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      background-color: $background-color_1;
+      color: $color_1;
+    }
+  }
+}
+
+.col1 {
+  float: left;
+  @include width-size-percent(50%);
+  background-color: $background-color_3;
+  color: $color_2;
+}
+.col2 {
+  float: left;
+  @include width-size-percent(25%);
+  background-color: $background-color_1;
+  color: $color_1;
+  h2 {
+    color: $color_3;
+  }
+}
+
+.col3 {
+  float: left;
+  @include width-size-percent(25%);
+  background-color: $background-color_3;
+  color: $color_2;
+}
+
+.footer {
+  @include width-size-percent;
+  background-color: $background-color_1;
+  font-size: 0.9rem;
+}
