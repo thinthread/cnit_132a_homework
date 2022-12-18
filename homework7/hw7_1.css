@@ -41,8 +41,8 @@
 }
 
 @keyframes rolling { 
-   0% { left: -50px; top: 50px; }
-   50% { left: calc(100% - 500px); top: 50px; }
+   0% { left: -10px; top: 50px; }
+   50% { left: calc(100% - 1000px); top: 50px; }
    100% { left: calc(50% - 220px); top: 50px; }
 }
 
