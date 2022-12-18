@@ -1,0 +1,26 @@
+*{
+	background-color: #f0eac0;
+	font-family: sans-serif;
+	margin-left: 0;
+}
+
+h1, h2{
+	text-align: left;
+}
+
+.house_text_container{
+	padding-left: 330px;
+	padding-right: 330px;
+}
+main.house_text_container p{
+	text-align: center;
+}
+
+.house{
+	width: 250px;
+	float: left;
+	margin-right: 3rem;
+	shape-outside: polygon(118px -5px, 74.5% 45.87%, 67.79% 120px, 67.95% 96.52%, 18.29% 96.75%, 20% 50%);
+}
+
+
