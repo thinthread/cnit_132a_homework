@@ -17,7 +17,7 @@ html, body{
 }
 
 /* Font color & family - h1 & footer*/
-h1, h2, h4, h6, p, .image_caption
+h1, h2, h4, h6, p, .image_caption, #keyword_list
 {
 	color: var(--light-gray-font-clr);
 	font-family: var(--all-over-font);
@@ -52,19 +52,24 @@ h5{
 
 
 /* Paragraph, portfolio page link alignment stuff */
-p, .image_caption{
-	
+p, .image_caption, #keyword_list ul{
+
 	max-width: 700px;
 	margin: auto;
 }
 
-.image_caption{
+.image_caption, #keyword_list{
 	text-align: center;
 }
 
 p{
 	text-align: left;
 }
+
+#keyword_list li{
+	list-style-type: none;
+}
+
 
 /* additional nav, assignments page, portfolio link animaiton and design stuff. */
 
@@ -167,19 +172,10 @@ nav ul li:focus-within > ul{
 
 }
 
-/*homwork 2 - report image GA4 */
-.reports_snapshot{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50px;
-  	padding: 20px;
-  	width: 800px;
-  	height: 500px; 
-}
 
-/*homwork 2 - report image GA4 */
-#uncompressed_backyard_garden, #compressed_backyard_garden{
+/*homework 2 reports GA4, hw3 garden shots, hw8 1 and 2 final GA4 evnet reports image */
+#uncompressed_backyard_garden, #compressed_backyard_garden, 
+.reports_snapshot, .event_data_points_snapshot{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
